@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda en Línea</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="site-header">
+
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+       
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos">
+            <button type="submit">Buscar</button>
+        </div>
+
+        <div class="logo">
+            <img src="resources/img/logo.png" alt="Logo de la tienda">
+        </div>
+    </header>
+
+    
+    <main class="main-content">
+        
+        <section class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="resources/img/carrousel1.webp" alt="Imagen 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="resources/img/carrousel2.webp" alt="Imagen 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="resources/img/carrousel3.webp" alt="Imagen 3">
+                </div>
+                <!-- Agrega más diapositivas según sea necesario -->
+            </div>
+            <button id="prevBtn" class="btn prevBtn">←</button>
+            <button id="nextBtn" class="btn nextBtn">→</button>  
+        </section>
+
+        
+        <section class="product-cards">
+            
+            <div class="product-card">
+                <img src="resources/img/producto1.jpg" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>Descripción corta</p>
+                <div class="price-container">
+                    <span class="price">$99.99</span>
+                    <button class="btn-ver">Ver</button>
+                </div>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="resources/img/producto1.jpg" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>Descripción corta</p>
+                <div class="price-container">
+                    <span class="price">$79.99</span>
+                    <button class="btn-ver">Ver</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="resources/img/producto1.jpg" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p>Descripción corta</p>
+                <div class="price-container">
+                    <span class="price">$89.99</span>
+                    <button class="btn-ver">Ver</button>
+                </div>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="resources/img/producto1.jpg" alt="Producto 3">
+                <h3>Producto 4</h3>
+                <p>Descripción corta</p>
+                <div class="price-container">
+                    <span class="price">$57.99</span>
+                    <button class="btn-ver">Ver</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="resources/img/producto1.jpg" alt="Producto 3">
+                <h3>Producto 5</h3>
+                <p>Descripción corta</p>
+                <div class="price-container">
+                    <span class="price">$46.75</span>
+                    <button class="btn-ver">Ver</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="resources/img/producto1.jpg" alt="Producto 3">
+                <h3>Producto 6</h3>
+                <p>Descripción corta</p>
+                <div class="price-container">
+                    <span class="price">$63.88</span>
+                    <button class="btn-ver">Ver</button>
+                </div>
+            </div>
+
+            
+        </section>
+    </main>
+
+    
+    <footer class="site-footer">
+        <div class="copyright">
+            &copy; 2023 Karina Mercado
+        </div>
+        <div class="social-media">
+            
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

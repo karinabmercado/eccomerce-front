@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f8f7; /* Fondo de la página */
+}
+
+.contact-form-container {
+    max-width: 800px; /* Ancho máximo del formulario */
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container h1 {
+    color: #03a9f4; /* Color del título */
+}
+
+.form-group {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 97%;
+}
+
+.btn-submit {
+    background-color: #03a9f4; /* Color del botón de enviar */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0392d6; /* Color del botón de enviar al pasar el mouse */
+}
+
+
+.btn-volver {
+    display: inline;
+    background-color: #03a9f4;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+.btn-volver:hover {
+    background-color: #0392d6;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .contact-form-container {
+        padding: 10px; /* Reducir el espaciado interior */
+        max-width: 90vw;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 8px;
+        max-width: 97%;
+    }
+    
+    .btn-submit {
+        padding: 8px 16px;
+    }
+}
